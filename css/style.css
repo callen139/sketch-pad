@@ -1,0 +1,115 @@
+body {
+	background-color: #FBFBFB;
+}
+
+#header, #footer {
+	display: block;
+	width: 100%;
+}
+
+#header {
+	height: 60px;
+	background-color: #FFC472;
+	top: 0;
+	left: 0;
+	text-align: center;
+	border-bottom: 1px solid #E6B067;
+}
+
+#footer {
+	height: 40px;
+	background-color: #FFC472;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	border-top: 1px solid #E6B067;
+}
+
+#controls {
+	display: inline-block;
+	height: 500px;
+	width: 250px;
+	left: 0;
+	background-color: #FFC472;
+	border-right: 3px solid #E6B067;
+	border-bottom: 3px solid #E6B067;
+	border-radius: 5px;
+}
+
+#container {
+	display: inline-block;
+	display: relative;
+	height: 500px;
+	width: 500px;
+	margin: 30px auto;
+	border: 1px solid black;
+	margin-left: 150px;
+}
+
+#container .square {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+.option1 {
+	background-color: #AAAAAA;
+}
+
+.option2 {
+
+}
+
+.option3 {
+
+}
+
+h2 {
+	padding: 30px;
+	display: inline-block;
+	font-size: 50px;
+	font-weight: bold;
+	color: #89BABE;
+}
+
+#instruction, #creator, #source {
+	color: #15BABE;
+	display: inline-block;
+	position: relative;
+}
+
+#instruction {
+	float: left;
+	margin-left: 10px;
+}
+
+#creator {
+	margin: 20px;
+}
+
+#source {
+	float: right;
+	margin-right: 10px;
+}
+
+#controls .choice {
+	display: block;
+	position: relative;
+	height: 100px;
+	width: 200px;
+	border-radius: 5px;
+	margin: 30px 0 20px 30px;
+}
+
+.rest {
+	background-color: #89BABE;
+	border-right: 4px solid #7BA7AB;
+	border-bottom: 4px solid #7BA7AB;
+
+}
+
+.clicked {
+	border: none;
+	background-color: #7BA7AB;
+}
